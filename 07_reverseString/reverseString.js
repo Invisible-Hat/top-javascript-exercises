@@ -1,9 +1,5 @@
-const reverseString = function (word) {
-  let array = "";
-  for (let i = word.length; i >= 0; i--) {
-    array += word.charAt(i);
-  }
-  return array;
+const reverseString = function (string) {
+  return string.split("").reverse().join("");
 };
 
 // Do not edit below this line
